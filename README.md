@@ -40,9 +40,11 @@ This project is deployed on [Render](https://render.com) as a monolithic app —
 ## 🛠️ Getting Started Locally
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/jaswanthrb/mern-thinkboard.git
 cd mern-thinkboard
+
+```
 
 ## 🧪 2. env Setup
 
