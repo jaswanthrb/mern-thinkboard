@@ -19,6 +19,7 @@ This project is deployed on [Render](https://render.com) as a monolithic app —
 - ⚛️ React frontend with Vite, Tailwind CSS & DaisyUI
 - 🔥 Notifications using react-hot-toast
 - ✅ Axios for API calls
+- 🧠 Redis-based rate limiting
 - 🧩 Organized folder structure
 
 ---
@@ -34,22 +35,44 @@ This project is deployed on [Render](https://render.com) as a monolithic app —
 
 ---
 
-## 🗂️ Folder Structure
+---
 
-mern-thinkboard/
-├── client/               # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── lib/          # axios setup
-│   │   └── …
-│   ├── package.json
-│   └── vite.config.js
-├── models/               # Mongoose schemas
-├── routes/               # Express routes
-├── server.js             # Entry point for Express server
-├── .env                  # Environment variables
-└── package.json          # Backend dependencies
+## 🛠️ Getting Started Locally
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/jaswanthrb/mern-thinkboard.git
+cd mern-thinkboard
+
+## 🧪 2. env Setup
+
+### Backend (`/backend`)
+
+```
+MONGO_URI=<your_mongo_uri>
+
+UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
+UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+
+NODE_ENV=development
+```
+
+## 🔧 Run the Backend
+
+```
+cd backend
+npm install
+npm run dev
+```
+
+## 💻 Run the Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+🧩 Future Improvements
+	•	🔐 Authentication (JWT)
 
