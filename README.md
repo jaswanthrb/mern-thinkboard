@@ -46,7 +46,7 @@ cd mern-thinkboard
 
 ```
 
-## 🧪 2. env Setup
+### 🧪 2. env Setup
 
 ### Backend (`/backend`)
 
@@ -76,5 +76,6 @@ npm run dev
 ```
 
 🧩 Future Improvements
+
 	•	🔐 Authentication (JWT)
 
