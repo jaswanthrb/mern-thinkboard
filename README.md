@@ -13,7 +13,7 @@ This project is deployed on [Render](https://render.com) as a monolithic app —
 
 ## 📌 Features
 
-- 📝 Create, Read, Update, Delete notes
+- 📝 Create, Read, Update, and Delete notes
 - ⚡ Monolithic deployment using Express
 - 📦 MongoDB Atlas integration
 - ⚛️ React frontend with Vite, Tailwind CSS & DaisyUI
@@ -35,3 +35,21 @@ This project is deployed on [Render](https://render.com) as a monolithic app —
 ---
 
 ## 🗂️ Folder Structure
+
+mern-thinkboard/
+├── client/               # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── lib/          # axios setup
+│   │   └── …
+│   ├── package.json
+│   └── vite.config.js
+├── models/               # Mongoose schemas
+├── routes/               # Express routes
+├── server.js             # Entry point for Express server
+├── .env                  # Environment variables
+└── package.json          # Backend dependencies
+
+
